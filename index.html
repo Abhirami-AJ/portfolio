@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABHIRAMI A J | MCA Student</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #0d6efd;
+      --dark: #1a1a2e;
+      --light: #f8f9fa;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    }
+
+    /* NAVBAR */
+    nav {
+      background: rgba(255,255,255,0.95);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--primary);
+    }
+
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero .role {
+      color: var(--primary);
+      margin: 10px 0;
+    }
+
+    .btn {
+      background: var(--primary);
+      color: white;
+      padding: 10px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    /* ABOUT */
+    #about {
+      background: white;
+    }
+
+    /* EXPERIENCE */
+    #experience {
+      background: #f1f1f1;
+    }
+
+    .timeline-item {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    /* CONTACT */
+    #contact {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white; /* ensure text is white */
+}
+
+/* Make links and icons white too */
+.contact-item a,
+.contact-item i {
+  color: white;
+  text-decoration: none;
+}
+  
+footer {
+      background: rgb(21, 20, 20);
+      color: white;
+      text-align: center;
+      text-decoration-color: #f5f7fa;
+      padding: 15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-container">
+    <div class="logo">Abhirami A J</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<!-- HERO -->
+<section id="home" class="hero">
+  <div>
+    <!-- Profile Image -->
+    <img src="C:\Users\abhir\Desktop\portfolio\abhirami.jpeg" alt="Abhirami" style="width:150px; height:150px; border-radius:50%; margin-bottom:20px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+
+    <h1>Hi, I'm <span style="color:#0d6efd;">Abhirami A J</span></h1>
+    <p class="role">MCA Student | Aspiring Developer</p>
+    <p>Passionate about Web Development & Python</p><br>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      MCA student passionate about web development and Python. 
+      Skilled in building simple, user-friendly applications using 
+      technologies like Python, databases, and web frameworks. 
+      Quick learner with strong problem-solving skills, seeking 
+      opportunities to gain real-world experience and grow as a developer.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <h2>Experience</h2>
+
+    <div class="timeline-item">
+      <h3>Intern</h3>
+      <p><b>Advanced Python Course – ICT Academy|2025</b></p>
+      <ul>
+        <li>Gained strong knowledge in core and advanced Python concepts</li>
+        <li>Worked with libraries like NumPy, Pandas, and Matplotlib
+        <li>Implemented file handling and exception handling techniques</li>
+        <li>Developed mini-projects for real-world problem solving</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <div class="contact-info">
+
+      <!-- Email -->
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:abhiramiaj2002@gmail.com">Email Me</a>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="contact-item">
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/abhirami-a-j-4a77a0378" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="contact-item">
+        <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/919207454013" target="_blank">
+          WhatsApp
+        </a>
+      </div>
+
+      <!-- Instagram -->
+      <div class="contact-item">
+        <i class="fab fa-instagram"></i>
+        <a href="https://instagram.com/yourusername" target="_blank">
+          Instagram
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Abhirami A J</p>
+</footer>
+
+</body>
+</html>
